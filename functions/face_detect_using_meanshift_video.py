@@ -5,7 +5,6 @@ from bb_intersection_over_union import bb_intersection_over_union
 from PIL import ImageGrab
 import matplotlib.pyplot as plt
 import seaborn as sns
-# Get user supplied values
 from time import time
 import itertools
 
@@ -62,7 +61,7 @@ while cap.isOpened():
                         #plt.savefig('figure1.png')
                         #plt.show()
 
-                        #create mask to cintain only object of intrest
+                        #create mask to cover only object of intrest
                         #mask = cv2.inRange(hsv_roi, np.array((0., 60., 32.)), np.array((180., 255., 255.)))
 
                         #create histogram distribution
